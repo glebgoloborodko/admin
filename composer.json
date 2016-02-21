@@ -13,7 +13,7 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "pingpong/menus": "^2",
-        "pingpong/presenters": "^2",
+        "pingpong/presenters": "2.1.5",
         "pingpong/trusty": "2.1.6",
         "pingpong/support": "^2",
         "intervention/image": "~2"
@@ -26,6 +26,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/glebgoloborodko/trusty"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/glebgoloborodko/presenters"
         }
     ],
     "autoload": {
