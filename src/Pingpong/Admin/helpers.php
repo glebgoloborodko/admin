@@ -137,7 +137,7 @@ if (!function_exists('user')) {
      */
     function user()
     {
-        return app(Config::get('auth.model'));
+        return app(Config::get('auth.providers.users.model'));
     }
 }
 
