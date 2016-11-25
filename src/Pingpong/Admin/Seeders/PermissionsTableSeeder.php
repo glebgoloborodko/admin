@@ -28,7 +28,7 @@ class PermissionsTableSeeder extends Seeder
             ]);
         }
 
-        $permissions = Permission::lists('id')->toArray();
+        $permissions = Permission::pluck('id')->toArray();
 
         Role::find(1)->permissions()->attach($permissions);
     }
