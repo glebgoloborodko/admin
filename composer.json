@@ -30,6 +30,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/glebgoloborodko/presenters"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/glebgoloborodko/support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/glebgoloborodko/menus"
         }
     ],
     "autoload": {
